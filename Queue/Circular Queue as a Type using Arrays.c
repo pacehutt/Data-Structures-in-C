@@ -65,7 +65,7 @@ void display(struct Queue q)
 		printf("%d\t", q.Q[i]);
 		i = (i + 1) % q.size;
 	}
-
+	
 	while (i != (q.rear + 1) % q.size);
 
 	printf("\n*********\n");
